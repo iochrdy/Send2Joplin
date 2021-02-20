@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "Send to Joplin",
+    "description": "Send emails to the Joplin app",
+    "version": "1.0",
+    "author": "Mike Roper",
+    "applications": {
+        "gecko": {
+            "id": "st.mikal@protonmail.net",
+            "strict_min_version": "78.0"
+        }
+    },
+    "message_display_action": {
+        "default_popup": "popup.html",
+        "default_title": "SendTo Joplin",
+        "default_icon": "images/mail-ext-icon-32px.png"
+    },
+    "permissions": [
+		"messagesRead",
+		"messagesModify",
+		"activeTab",
+		"tabs",
+		"tabHide"
+    ],
+    "icons": {
+        "64": "images/mail-ext-icon-64px.png",
+        "32": "images/mail-ext-icon-32px.png",
+        "16": "images/mail-ext-icon-16px.png"
+    }
+}
